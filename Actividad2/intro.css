@@ -1,0 +1,31 @@
+h1{
+    background-color: brown;
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    margin: 10px;
+    border-color: black;
+    border-style: groove;
+    border-width: 3px;
+    padding: 20px;
+}
+
+img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style: outset;
+    border-radius: 50%;
+    justify-content: center;
+}
+.img-main{
+    display:grid;
+
+}
+
