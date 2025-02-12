@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "refresh" content = "10000">
+</head>
+<html lang="en">
+<body>
+    <form action = "#" method="post">
+        <fieldset>
+            <!-- Campo de Texto -->
+     <p>
+        <label for="id">Nombre:</label>
+        <input typer = "text" id = "id_nombre" name = "nombre" required>
+        </p>
+   
+        <!-- Campo de contraseña -->
+         <p>
+           <label>
+               Contraseña &#x1F47D:
+               <input type="password" name = "password" required>
+           </label>
+         </p>
+         <p>
+           <label for = "idCorreo">Correo Electrónico</label>
+           <input type="email" id = "idCorreo" name="email" required>
+         </p>
+        </fieldset>
+        
+         <!-- Campo número -->
+         <p>
+           <label for="idEdad">Edad:</label>
+           <input type = "number" id = "idEdad" name = "edad" min = "1" max = "112">
+         </p>
+        <!-- Campo de Fecha -->
+         <p>
+          <label for = "idFecha"> Fecha de Nacimiento:</label>
+          <input type = "date" id="idFecha" name = "fecha">
+         </p>
+         <!-- Campo de hora -->
+          <p>
+           <label>
+               hora cita:
+               <input type="time" name = "hora">
+           </label>
+          </p>
+          <!-- Campo de selección -->
+           <p>
+               País:
+               <select name = "pais">
+                   <option value="">Selecciones...</option>
+                   <option value="es">España</option>
+                   <option value = "Mx">México</option>
+                   <option value = "His">Comalapa</option>
+               </select>
+           </p>
+           <!-- Campo de radio -->
+            <p>
+                Género:
+                <input type="radio" id = "idMasculino" name="genero" value="masculino">
+                <label for="idMasculino">Masculino</label>
+                <input type="radio" id = "idFemenino" name="genero" value="femenino">
+                <label for="idFemenino">Femenino</label>
+            </p>
+            <!-- Casilla de Verificacion -->
+            <p>
+                <label>
+                    Intereses
+                    <input type="checkbox" id = "deportes" name="intereses" value="deportes">
+                    <label for = "deportes">Deportes:</label>
+                    <input type="checkbox" id = "musica" name="intereses" value="musica">
+                    <label for = "deportes">Musica</label>
+                    <input type="checkbox" id = "lectura" name="intereses" value="lectura">
+                    <label for = "deportes">Lectura</label>
+                    <input type="checkbox" id = "peliculas" name="intereses" value="peliculas">
+                    <label for = "deportes">Peliculas</label>
+                </label>
+            </p>
+            <!-- Campo de archivos -->
+            <p>
+                <label>
+                    Archivo:
+                    <input type="file" name="archivo">
+                </label>
+            </p>
+            <!-- Área de Texto -->
+             <p>
+                <label>
+                    Comentarios: <br><br>
+                    <textarea name="Comentario" rows = "10" cols="100"></textarea>
+                </label>
+             </p>
+            <!-- Botones -->
+            <p>
+                <button type = "submit"> Enviar </button>
+                <button type = "reset"> Restablecer </button>
+            </p>
+    </form>
+</body>
+</html>
