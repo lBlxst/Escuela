@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinco</title>
+</head>
+<body>
+    <fieldset>
+        <p>
+            <label for="id">Nombre:</label>
+            <input typer = "text" id = "id_nombre" name = "nombre" required>
+        </p>
+        <p>
+            <label for = "idCorreo">Correo Electrónico</label>
+            <input type="email" id = "idCorreo" name="email" required>
+        </p>
+        <p>
+                <label for="idEdad">Edad:</label>
+                <input type = "number" id = "idEdad" name = "edad" min = "1" max = "112">
+        </p>
+        <p>
+            <label for = "idFecha"> Fecha de Nacimiento:</label>
+            <input type = "date" id="idFecha" name = "fecha">
+        </p>
+        <p>
+            Estado Civil:
+            <input type="radio" id = "idSoltero" name="estado" value="soltero">
+            <label for="idSoltero">Soltero</label>
+            <input type="radio" id = "idCasado" name="estado" value="casado">
+            <label for="idCasado">Casado</label>
+        </p>
+        <p>
+            Lugar de residencia:
+            <select name = "Lugar de residencia">
+                <option value="">Selecciones...</option>
+                <option value="es">Xalapa</option>
+                <option value = "Mx">Boca del rio</option>
+                <option value = "His">Comalapa</option>
+            </select>
+        </p>
+        <p>
+            <button type = "submit"> Enviar </button>
+            <button type = "reset"> Restablecer </button>
+        </p>
+    </fieldset>
+</body>
+</html>
